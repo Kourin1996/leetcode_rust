@@ -10,7 +10,7 @@ $ cargo test
 
 ## Problems
 
-| | Problems | Solution | Solved |
+| | Problem | Solution | Solved |
 | ------------- | ------------- | ------------- | ------------- |
 | 1 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/easy/contains_duplicate/solution.rs) | Jul 22, 2023 |
 | 2 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/easy/valid_anagram/solution.rs) | Jul 23, 2023 |
@@ -21,3 +21,5 @@ $ cargo test
 | 7 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/medium/longest_consective_sequence/solution.rs) | Jul 27, 2023 |
 | 8 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/easy/valid_parentheses/solution.rs) | Jul 28, 2023 |
 | 9 | [Evaluate Reversee Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/medium/evaluate_reverse_polish_notation/solution.rs) | Jul 29, 2023 |
+| 10 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/medium/generate_paretheses/solution.rs) | Aug 02, 2023 |
+
