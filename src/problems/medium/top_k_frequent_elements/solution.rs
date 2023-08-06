@@ -13,15 +13,12 @@ impl Solution {
 
         let mut res: Vec<_> = m.iter().collect();
 
-        res.sort_by(|a, b| {
-            b.1.cmp(a.1)
-        });
+        res.sort_by(|a, b| b.1.cmp(a.1));
 
-        res
-        .into_iter()
-        .map(|(num, _freq)| { *num })
-        .take(k as usize)
-        .collect()
+        res.into_iter()
+            .map(|(num, _freq)| *num)
+            .take(k as usize)
+            .collect()
     }
 }
 /* Submission Code Ends */

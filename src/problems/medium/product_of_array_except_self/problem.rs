@@ -26,20 +26,16 @@ mod tests {
     #[test]
     fn example1() {
         assert_eq!(
-            Solution::product_except_self(
-                vec![1, 2, 3, 4]
-            ),
-            vec![24,12,8,6]
+            Solution::product_except_self(vec![1, 2, 3, 4]),
+            vec![24, 12, 8, 6]
         )
     }
 
     #[test]
     fn example2() {
         assert_eq!(
-            Solution::product_except_self(
-                vec![-1,1,0,-3,3]
-            ),
-            vec![0,0,9,0,0]
+            Solution::product_except_self(vec![-1, 1, 0, -3, 3]),
+            vec![0, 0, 9, 0, 0]
         )
     }
 }

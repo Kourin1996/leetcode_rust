@@ -28,10 +28,7 @@ mod tests {
     use crate::problems::easy::group_anagrams::solution::Solution;
 
     fn strs_to_strings(v: Vec<&str>) -> Vec<String> {
-        v
-        .into_iter()
-        .map(|s| String::from(s))
-        .collect()
+        v.into_iter().map(|s| String::from(s)).collect()
     }
 
     fn check_answer(v1: Vec<Vec<String>>, v2: Vec<Vec<String>>) -> bool {
@@ -39,15 +36,13 @@ mod tests {
             return false;
         }
 
-        let mut v2_map: HashMap<String, bool> = HashMap::from_iter(
-            v2.iter().map(|strs| {
-                let mut sorted = strs.clone();
+        let mut v2_map: HashMap<String, bool> = HashMap::from_iter(v2.iter().map(|strs| {
+            let mut sorted = strs.clone();
 
-                sorted.sort();
+            sorted.sort();
 
-                (sorted.join(","), false)
-            }),
-        );
+            (sorted.join(","), false)
+        }));
 
         for strs in v1 {
             let mut sorted = strs.clone();
@@ -57,7 +52,7 @@ mod tests {
             let key = sorted.join(",");
 
             if v2_map.contains_key(&key) {
-              v2_map.insert(key, true);
+                v2_map.insert(key, true);
             } else {
                 return false;
             }
@@ -71,13 +66,13 @@ mod tests {
     fn example1() {
         assert_eq!(
             check_answer(
-                Solution::group_anagrams(
-                    strs_to_strings(vec!["eat","tea","tan","ate","nat","bat"])
-                ),
+                Solution::group_anagrams(strs_to_strings(vec![
+                    "eat", "tea", "tan", "ate", "nat", "bat"
+                ])),
                 vec![
                     strs_to_strings(vec!["bat"]),
-                    strs_to_strings(vec!["nat","tan"]),
-                    strs_to_strings(vec!["ate","eat","tea"]),
+                    strs_to_strings(vec!["nat", "tan"]),
+                    strs_to_strings(vec!["ate", "eat", "tea"]),
                 ],
             ),
             true,
@@ -88,12 +83,8 @@ mod tests {
     fn example2() {
         assert_eq!(
             check_answer(
-                Solution::group_anagrams(
-                    strs_to_strings(vec![""])
-                ),
-                vec![
-                    strs_to_strings(vec![""]),
-                ],
+                Solution::group_anagrams(strs_to_strings(vec![""])),
+                vec![strs_to_strings(vec![""]),],
             ),
             true,
         )
@@ -103,12 +94,8 @@ mod tests {
     fn example3() {
         assert_eq!(
             check_answer(
-                Solution::group_anagrams(
-                    strs_to_strings(vec!["a"])
-                ),
-                vec![
-                    strs_to_strings(vec!["a"]),
-                ],
+                Solution::group_anagrams(strs_to_strings(vec!["a"])),
+                vec![strs_to_strings(vec!["a"]),],
             ),
             true,
         )

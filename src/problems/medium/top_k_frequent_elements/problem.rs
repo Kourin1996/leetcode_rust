@@ -25,16 +25,13 @@ mod tests {
     #[test]
     fn example1() {
         assert_eq!(
-            Solution::top_k_frequent(vec![1,1,1,2,2,3], 2),
+            Solution::top_k_frequent(vec![1, 1, 1, 2, 2, 3], 2),
             vec![1, 2]
         )
     }
 
     #[test]
     fn example2() {
-        assert_eq!(
-            Solution::top_k_frequent(vec![1,1], 1),
-            vec![1]
-        )
+        assert_eq!(Solution::top_k_frequent(vec![1, 1], 1), vec![1])
     }
 }

@@ -3,10 +3,10 @@ pub struct Solution {}
 /* Submission Code Begins */
 impl Solution {
     pub fn product_except_self(nums: Vec<i32>) -> Vec<i32> {
-        let mut count:u8 = 0;
+        let mut count: u8 = 0;
 
         for x in &nums {
-            if *x ==0 {
+            if *x == 0 {
                 count += 1;
             }
             if count >= 2 {
@@ -19,7 +19,9 @@ impl Solution {
             return res;
         }
 
-        let all_product = nums.iter().fold(1, |acc, x| acc * (if *x != 0 {*x} else {1}));
+        let all_product = nums
+            .iter()
+            .fold(1, |acc, x| acc * (if *x != 0 { *x } else { 1 }));
 
         for (i, x) in nums.iter().enumerate() {
             if *x == 0 {
