@@ -35,7 +35,7 @@ mkdir "src/problems/$1/$2"
 
 cat << EOF > "src/problems/$1/$2/problem.rs"
 /*
-    Description
+Description:
 */
 
 #[cfg(test)]
