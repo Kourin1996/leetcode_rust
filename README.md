@@ -22,4 +22,5 @@ $ cargo test
 | 8 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/easy/valid_parentheses/solution.rs) | Jul 28, 2023 |
 | 9 | [Evaluate Reversee Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/medium/evaluate_reverse_polish_notation/solution.rs) | Jul 29, 2023 |
 | 10 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/medium/generate_paretheses/solution.rs) | Aug 02, 2023 |
+| 11 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/medium/min_stack/solution.rs) | Aug 07, 2023 |
 
