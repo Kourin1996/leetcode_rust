@@ -36,21 +36,12 @@ mod tests {
         min_stack.push(0);
         min_stack.push(-3);
 
-        assert_eq!(
-            min_stack.get_min(),
-            -3,
-        );
+        assert_eq!(min_stack.get_min(), -3,);
 
         min_stack.pop();
 
-        assert_eq!(
-            min_stack.top(),
-            0
-        );
+        assert_eq!(min_stack.top(), 0);
 
-        assert_eq!(
-            min_stack.get_min(),
-            -2,
-        );
+        assert_eq!(min_stack.get_min(), -2,);
     }
 }
