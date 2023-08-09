@@ -24,4 +24,5 @@ $ cargo test
 | 10 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/medium/generate_paretheses/solution.rs) | Aug 02, 2023 |
 | 11 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/medium/min_stack/solution.rs) | Aug 07, 2023 |
 | 12 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/medium/daily_temperatures/solution.rs) | Aug 08, 2023 |
+| 12 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/medium/car_fleet/solution.rs) | Aug 09, 2023 |
 
