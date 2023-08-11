@@ -23,25 +23,16 @@ mod tests {
     /* Test Cases */
     #[test]
     fn example1() {
-        assert_eq!(
-            Solution::largest_rectangle_area(vec![2,1,5,6,2,3]),
-            10
-        )
+        assert_eq!(Solution::largest_rectangle_area(vec![2, 1, 5, 6, 2, 3]), 10)
     }
 
     #[test]
     fn example2() {
-        assert_eq!(
-            Solution::largest_rectangle_area(vec![2,4]),
-            4
-        )
+        assert_eq!(Solution::largest_rectangle_area(vec![2, 4]), 4)
     }
 
     #[test]
     fn example3() {
-        assert_eq!(
-            Solution::largest_rectangle_area(vec![4, 2, 3]),
-            6
-        )
+        assert_eq!(Solution::largest_rectangle_area(vec![4, 2, 3]), 6)
     }
 }

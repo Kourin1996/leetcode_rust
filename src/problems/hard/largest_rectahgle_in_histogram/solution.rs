@@ -25,9 +25,7 @@ impl Solution {
                 stack
             })
             .into_iter()
-            .for_each(|(idx, height)| {
-                ans = ans.max(height * (n - idx) as i32)
-            });
+            .for_each(|(idx, height)| ans = ans.max(height * (n - idx) as i32));
         ans
     }
 }

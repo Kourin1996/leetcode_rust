@@ -3,13 +3,16 @@ pub struct Solution {}
 /* Submission Code Begins */
 impl Solution {
     pub fn car_fleet(target: i32, position: Vec<i32>, speed: Vec<i32>) -> i32 {
-        let mut arr: Vec<(i32, f64)> = position.into_iter()
-            .zip(speed.into_iter()).map(|(pos, speed)| {
-            let remaining = target - pos;
-            let time = (remaining as f64)/(speed as f64);
+        let mut arr: Vec<(i32, f64)> = position
+            .into_iter()
+            .zip(speed.into_iter())
+            .map(|(pos, speed)| {
+                let remaining = target - pos;
+                let time = (remaining as f64) / (speed as f64);
 
-            (pos, time)
-        }).collect();
+                (pos, time)
+            })
+            .collect();
 
         // sort by position (bigger comes first)
         arr.sort_by(|a, b| b.0.partial_cmp(&a.0).unwrap());
