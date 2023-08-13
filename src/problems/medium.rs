@@ -5,6 +5,6 @@ pub mod generate_paretheses;
 pub mod longest_consective_sequence;
 pub mod min_stack;
 pub mod product_of_array_except_self;
+pub mod three_sum;
 pub mod top_k_frequent_elements;
 pub mod two_sum_ii_input_array_is_sorted;
-pub mod 3sum;

@@ -32,34 +32,16 @@ mod tests {
     /* Test Cases */
     #[test]
     fn example1() {
-        assert_eq!(
-            Solution::two_sum(
-                vec![2,7,11,15],
-                9,
-            ),
-            vec![1, 2]
-        )
+        assert_eq!(Solution::two_sum(vec![2, 7, 11, 15], 9,), vec![1, 2])
     }
 
     #[test]
     fn example2() {
-        assert_eq!(
-            Solution::two_sum(
-                vec![2,3,4],
-                6,
-            ),
-            vec![1, 3]
-        )
+        assert_eq!(Solution::two_sum(vec![2, 3, 4], 6,), vec![1, 3])
     }
 
     #[test]
     fn example3() {
-        assert_eq!(
-            Solution::two_sum(
-                vec![-1,0],
-                -1,
-            ),
-            vec![1, 2]
-        )
+        assert_eq!(Solution::two_sum(vec![-1, 0], -1,), vec![1, 2])
     }
 }

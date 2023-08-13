@@ -12,7 +12,7 @@ impl Solution {
             match (numbers[left] + numbers[right]).cmp(&target) {
                 Ordering::Less => left += 1,
                 Ordering::Greater => right -= 1,
-                Ordering::Equal => return vec![left as i32 + 1, right as i32 + 1]
+                Ordering::Equal => return vec![left as i32 + 1, right as i32 + 1],
             }
         }
 
