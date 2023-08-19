@@ -11,7 +11,7 @@ $ cargo test
 ## Problems
 
 |     | Problem                                                                                               | Solution                                                                                                                           | Solved       |
-| --- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| --- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |--------------|
 | 1   | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                               | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/easy/contains_duplicate/solution.rs)                 | Jul 22, 2023 |
 | 2   | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                         | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/easy/valid_anagram/solution.rs)                      | Jul 23, 2023 |
 | 3   | [Two Sum](https://leetcode.com/problems/two-sum/)                                                     | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/easy/two_sum/solution.rs)                            | Jul 23, 2023 |
@@ -30,3 +30,4 @@ $ cargo test
 | 16  | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/medium/two_sum_ii_input_array_is_sorted/solution.rs) | Aug 12, 2023 |
 | 17  | [3Sum](https://leetcode.com/problems/3sum/)                                                           | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/medium/three_sum/solution.rs)                        | Aug 13, 2023 |
 | 18  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)                 | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/medium/container_with_most_water/solution.rs)        | Aug 14, 2023 |
+| 19  | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                             | [Solution](https://github.com/Kourin1996/leetcode_rust/blob/main/src/problems/hard/trapping_rain_water/solution.rs)                | Aug 20, 2023 |
